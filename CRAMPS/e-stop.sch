@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:CRAMPS-rescue
 LIBS:power
 LIBS:m_cramps
 LIBS:w_connectors
@@ -14,7 +15,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -39,7 +39,7 @@ LIBS:opendous
 LIBS:beaglebone
 LIBS:beagleboneblack
 LIBS:CRAMPS-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -354,7 +354,7 @@ $EndComp
 Text Notes 1700 6050 0    60   ~ 0
 Address and WP pins have internal pull-down\nDefault configuration is no shunts populated:\nAddr = 0xA8\nWP = Disabled (writes allowed)
 $Comp
-L HEADER_2X2 JP301
+L HEADER_2x2 JP301
 U 1 1 53319970
 P 1950 6750
 F 0 "JP301" H 1950 6900 60  0000 C CNN
@@ -443,7 +443,7 @@ F 5 "M20-9990645" H 9500 5350 60  0001 C CNN "PartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER_4X2 P303
+L HEADER_4x2 P303
 U 1 1 53319778
 P 7050 5250
 F 0 "P303" H 7050 5500 60  0000 C CNN
@@ -1104,7 +1104,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 5200 6700 5200
 $Comp
-L HEADER_3X2 P304
+L HEADER_3x2 P304
 U 1 1 535FF544
 P 7050 6200
 F 0 "P304" H 7050 6400 60  0000 C CNN
@@ -1164,7 +1164,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 4200 1600 4300
 $Comp
-L SHUNT S301
+L Shunt S301
 U 1 1 536179A3
 P 4200 5050
 F 0 "S301" H 4200 5150 60  0000 C CNN

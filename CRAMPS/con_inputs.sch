@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:CRAMPS-rescue
 LIBS:power
 LIBS:m_cramps
 LIBS:w_connectors
@@ -14,7 +15,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -39,7 +39,7 @@ LIBS:opendous
 LIBS:beaglebone
 LIBS:beagleboneblack
 LIBS:CRAMPS-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -157,7 +157,7 @@ MISO
 Text GLabel 4700 4400 2    50   Output ~ 0
 SPI_CS0
 $Comp
-L HEADER_6X2 P502
+L HEADER_6x2 P502
 U 1 1 532C5F11
 P 1950 3750
 F 0 "P502" H 1950 4100 60  0000 C CNN
@@ -448,7 +448,7 @@ F 7 "RK73H1JTTD2001F" H 10950 3900 60  0001 C CNN "AltPartNo"
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER_4X2 P504
+L HEADER_4x2 P504
 U 1 1 532C59EE
 P 6600 3200
 F 0 "P504" H 6600 3450 60  0000 C CNN
@@ -848,7 +848,7 @@ Wire Wire Line
 	2400 3100 2400 2800
 Connection ~ 2400 2800
 $Comp
-L HEADER_4X2 P503
+L HEADER_4x2 P503
 U 1 1 535FE942
 P 1950 4450
 F 0 "P503" H 1950 4700 60  0000 C CNN
@@ -897,7 +897,7 @@ Connection ~ 3200 4400
 Wire Wire Line
 	3100 4400 3700 4400
 $Comp
-L SHUNT S501
+L Shunt S501
 U 1 1 5361A40B
 P 9700 4350
 F 0 "S501" H 9700 4450 60  0000 C CNN

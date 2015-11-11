@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:CRAMPS-rescue
 LIBS:power
 LIBS:m_cramps
 LIBS:w_connectors
@@ -14,7 +15,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -39,7 +39,7 @@ LIBS:opendous
 LIBS:beaglebone
 LIBS:beagleboneblack
 LIBS:CRAMPS-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
