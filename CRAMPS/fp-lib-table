@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name beagleboneblack)(type Legacy)(uri D:\SourceControl\GitExternal\bobc_hardware\KiCAD_Libraries\FlyingBone\beagleboneblack.mod)(options "")(descr ""))
+  (lib (name m_cramps)(type Legacy)(uri D:\SourceControl\GitExternal\bobc_hardware\KiCAD_Libraries\Lindeblom\m_cramps.mod)(options "")(descr ""))
+  (lib (name RMC)(type Legacy)(uri D:\SourceControl\GitExternal\bobc_hardware\KiCAD_Libraries\modules\RMC.mod)(options "")(descr ""))
+  (lib (name w_pin_strip)(type Legacy)(uri D:\SourceControl\GitExternal\bobc_hardware\KiCAD_Libraries\walter\pcbnew\w_pin_strip.mod)(options "")(descr ""))
+  (lib (name Tinkerforge)(type KiCad)(uri D:\SourceControl\GitExternal\bobc_hardware\KiCAD_Libraries\Tinkerforge.pretty)(options "")(descr ""))
+)
